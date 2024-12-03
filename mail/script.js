@@ -5,7 +5,7 @@ const mail = [
 let email = prompt("metti l'email");
 let flag = false;
 
-for(let i = 0; i < mail.lenght; i++){
+for(let i = 0; i < mail.length; i++){
     if(mail[i] === email){
         flag = true;
     }
